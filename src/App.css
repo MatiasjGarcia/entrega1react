@@ -1,7 +1,7 @@
 /* NavBar.css */
 
 nav {
-  background-color: #333;
+  background-color: rgb(71, 57, 37);
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -9,13 +9,14 @@ nav {
 
 nav a {
   color: #fff;
-  text-decoration: none;
+  text-decoration:underline;
+  text-shadow: 1px 1px 4px rgb(255, 255, 255);
   padding: 10px;
   margin: 0 10px;
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: rgb(150, 141, 124);
 }
 
 .cart-icon {
@@ -24,4 +25,21 @@ nav a:hover {
 
 .cart-link {
   float: right;
+}
+
+
+/* Title */
+
+h1{
+  text-align: center;
+  background-color: rgb(146, 118, 81);
+  text-shadow: 3px 3px 4px white;
+  
+}
+
+/* Body Background */
+
+body{
+  background-color: black;
+  background-image: url(./img/Fondodios.jpg);
 }
